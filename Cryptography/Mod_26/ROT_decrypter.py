@@ -4,9 +4,9 @@ import string
 
 
 def get_shift():
-    _choice = input('\nDefault shift is 13, do you want to change it? [yes/no]\n\n')
+    _choice = input('\nDefault shift is 13, do you want to change it? [yes/no]\n\n>>>  ')
     if _choice == 'yes':
-        shift = input('\nHow many letters you want your text to be shifted?\n\n')
+        shift = input('\nHow many letters you want your text to be shifted?\n\n>>>  ')
         shift = int(shift)
 
         if shift >= 26:
@@ -66,7 +66,7 @@ def decryption(shift, encrypted):
 
 
 
-encrypted = input('\nEnter text to be decrypted\n\n')
+encrypted = input('\nEnter text to be decrypted\n\n>>>  ')
 
 if __name__=='__main__':
     shift = get_shift()
