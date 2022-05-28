@@ -15,13 +15,3 @@ for index, item in enumerate(_list):
 result = ''.join(_list)
 
 print(result)
-
-
-
-
-
-
-
-
-
-
