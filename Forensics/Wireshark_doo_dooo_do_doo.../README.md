@@ -5,3 +5,7 @@ In this challenge, we are provided with .pcapng file that contains a record of c
 And what do you know, we have a decent odds that we have just found the flag. Since it's encrypted, we can throw it into CyberChef and try checking for most common cyphers. Seems like this time it was just a simple ROT13 cypher. There is our flag:
 
 <p align="center"><img src="../../images/Wireshark_do1.png" ></p>
+
+Managed to automate that entire process by using a simple shell one-liner:
+
+<p align="center"><img src="../../images/Wireshark_do2.png" ></p>
