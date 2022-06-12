@@ -1,3 +1,5 @@
+<p align="center"><img src="../../images/information0.png" ></p>
+
 This challenge is about finding information in metadata of image. Whenever we are provided with an image, Exiftool is a tool I'm using right away, it will be really handy for this challenge overall and required if you want to use my script. Firstly we use it with just one argument - our file, to examine it's metadata.
 
 <p align="center"><img src="../../images/information1.png" ></p>
