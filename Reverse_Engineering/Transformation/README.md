@@ -1,3 +1,5 @@
+<p align="center"><img src="../../images/Transformation0.png" ></p>
+
 In this challenge, string in enc file has been encoded in some way and we have to figure out how it's been done so we can reverse it.
 
 <p align="center"><img src="../../images/Transformation1.png" ></p>
